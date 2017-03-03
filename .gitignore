@@ -1,0 +1,101 @@
+############
+# .gitignore
+############
+
+########################################
+# Project files
+
+var
+tmp
+
+########################################
+# MacOS X Files
+
+.DS_Store
+.Trashes
+*.swp
+*.lock
+**/log/
+
+
+########################################
+# Xcode Files
+
+*~.nib
+DerivedData/
+build/
+
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+*.gcda
+*.gcno
+
+xcuserdata
+
+########################################
+# Xcode 5 Instruments
+
+**/*.trace/Trace*.run
+**/*.trace/instrument_data/**/*
+**/*.trace/shared_data/**/*
+
+########################################
+# Vim
+
+Session.vim
+
+########################################
+# Sublime Text
+
+*.sublime-project
+*.sublime-workspace
+
+########################################
+# Specific files & directories
+
+.cache
+.coverage
+htmlcov
+
+*~
+.\#*
+.*.swp
+
+
+########################################
+# Python Patterns
+
+build/
+dist/
+.eggs
+*.egg-info
+*.pyc
+*.pyo
+*.log
+*.orig
+.ropeproject
+.venv
+VENV
+
+########################################
+# Cocoapods Patterns
+Pods
+Podfile.lock
+
+########################################
+# Regular expression patterns
+
+var/translate_export/
+var/translate_import/
+var/translate_strings/
+var/translate_db/
+var/LCOV_*.url
